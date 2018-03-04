@@ -1,0 +1,694 @@
+2018-02-25 17:19:46 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: kykblog)
+2018-02-25 17:19:46 [scrapy.utils.log] INFO: Versions: lxml 2.3.0.0, libxml2 2.7.7, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 2.7.10 (default, May 23 2015, 09:44:00) [MSC v.1500 64 bit (AMD64)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0g  2 Nov 2017), cryptography 2.1.4, Platform Windows-8-6.2.9200
+2018-02-25 17:19:46 [scrapy.crawler] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'kykblog.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['kykblog.spiders'], 'BOT_NAME': 'kykblog', 'COOKIES_ENABLED': False, 'LOG_FILE': 'kykblogSpider.log', 'DOWNLOAD_DELAY': 1.5}
+2018-02-25 17:19:46 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2018-02-25 17:19:47 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-02-25 17:19:47 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-02-25 17:19:47 [scrapy.middleware] INFO: Enabled item pipelines:
+['kykblog.pipelines.KykblogPipeline']
+2018-02-25 17:19:47 [scrapy.core.engine] INFO: Spider opened
+2018-02-25 17:19:47 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-02-25 17:20:47 [scrapy.extensions.logstats] INFO: Crawled 41 pages (at 41 pages/min), scraped 32 items (at 32 items/min)
+2018-02-25 17:21:15 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2018-02-25 17:21:15 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2018-02-25 17:21:16 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2018-02-25 17:21:40 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: kykblog)
+2018-02-25 17:21:40 [scrapy.utils.log] INFO: Versions: lxml 2.3.0.0, libxml2 2.7.7, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 2.7.10 (default, May 23 2015, 09:44:00) [MSC v.1500 64 bit (AMD64)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0g  2 Nov 2017), cryptography 2.1.4, Platform Windows-8-6.2.9200
+2018-02-25 17:21:40 [scrapy.crawler] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'kykblog.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['kykblog.spiders'], 'BOT_NAME': 'kykblog', 'COOKIES_ENABLED': False, 'LOG_FILE': 'kykblogSpider.log', 'DOWNLOAD_DELAY': 1.5}
+2018-02-25 17:21:40 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2018-02-25 17:21:41 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-02-25 17:21:41 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-02-25 17:21:41 [scrapy.middleware] INFO: Enabled item pipelines:
+['kykblog.pipelines.KykblogPipeline']
+2018-02-25 17:21:41 [scrapy.core.engine] INFO: Spider opened
+2018-02-25 17:21:41 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-02-25 17:21:44 [scrapy.core.scraper] ERROR: Error processing {'date': u'2018-01-19 01-47 - 1',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201801/mobdfCQvJ.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:21:46 [scrapy.core.scraper] ERROR: Error processing {'date': u'2018-01-19 01-47 - 2',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201801/mob8QBpnM.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:21:47 [scrapy.core.scraper] ERROR: Error processing {'date': u'2018-01-19 01-47 - 3',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201801/mobNb95mP.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:21:49 [scrapy.core.scraper] ERROR: Error processing {'date': u'2018-01-19 01-47 - 4',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201801/mob9gYNuS.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:21:51 [scrapy.core.scraper] ERROR: Error processing {'date': u'2018-01-19 01-47 - 5',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201801/mobMsBvKV.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:21:53 [scrapy.core.scraper] ERROR: Error processing {'date': u'2018-01-19 01-47 - 6',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201801/mob4lrl8Y.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:21:54 [scrapy.core.scraper] ERROR: Error processing {'date': u'2018-01-19 01-47 - 7',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201801/mobFPgvE2.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:21:56 [scrapy.core.scraper] ERROR: Error processing {'date': u'2018-01-19 01-47 - 8',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201801/mob8foOi6.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:21:58 [scrapy.core.scraper] ERROR: Error processing {'date': u'2018-01-19 01-47 - 9',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201801/mob6ln049.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:22:00 [scrapy.core.scraper] ERROR: Error processing {'date': u'2018-01-19 01-47 - 10',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201801/mobJ4zBYd.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:22:02 [scrapy.core.scraper] ERROR: Error processing {'date': u'2018-01-19 01-47 - 11',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201801/mobQydfZh.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:22:03 [scrapy.core.scraper] ERROR: Error processing {'date': u'2018-01-16 22-18 - 1',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201801/mobdfKQoX.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:22:05 [scrapy.core.scraper] ERROR: Error processing {'date': u'2018-01-16 22-18 - 2',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201801/mobbZ55lm.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:22:07 [scrapy.core.scraper] ERROR: Error processing {'date': u'2018-01-16 22-18 - 3',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201801/mobrPMnqL.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:22:09 [scrapy.core.scraper] ERROR: Error processing {'date': u'2018-01-16 22-18 - 4',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201801/mob6KguBa.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:22:11 [scrapy.core.scraper] ERROR: Error processing {'date': u'2018-01-16 22-18 - 5',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201801/mobsRpnTz.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:22:13 [scrapy.core.scraper] ERROR: Error processing {'date': u'2018-01-15 23-11 - 1',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201801/mobCSEOUO.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:22:15 [scrapy.core.scraper] ERROR: Error processing {'date': u'2018-01-15 23-11 - 2',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201801/mob43XU7O.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:22:17 [scrapy.core.scraper] ERROR: Error processing {'date': u'2018-01-12 21-11 - 1',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201801/mobfXovk7.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:22:19 [scrapy.core.scraper] ERROR: Error processing {'date': u'2018-01-12 21-11 - 2',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201801/mobBwc8gG.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:22:21 [scrapy.core.scraper] ERROR: Error processing {'date': u'2018-01-12 21-11 - 3',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201801/mobd9cLlf.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:22:23 [scrapy.core.scraper] ERROR: Error processing {'date': u'2018-01-12 21-11 - 4',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201801/mob0iE4yO.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:22:24 [scrapy.core.scraper] ERROR: Error processing {'date': u'2018-01-12 21-11 - 5',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201801/mobAxpsWn.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:22:26 [scrapy.core.scraper] ERROR: Error processing {'date': u'2018-01-12 21-11 - 6',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201801/mobN6clsX.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:22:28 [scrapy.core.scraper] ERROR: Error processing {'date': u'2018-01-12 21-11 - 7',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201801/mobApIB6w.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:22:30 [scrapy.core.scraper] ERROR: Error processing {'date': u'2018-01-12 21-11 - 8',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201801/mobZonaT6.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:22:32 [scrapy.core.scraper] ERROR: Error processing {'date': u'2018-01-03 13-25 - 1',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201801/mobdgMPt4.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:22:33 [scrapy.core.scraper] ERROR: Error processing {'date': u'2018-01-01 23-30 - 1',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201801/mobpjZ0Qb.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:22:36 [scrapy.core.scraper] ERROR: Error processing {'date': u'2017-12-29 02-05 - 1',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201712/mobQzcGl2.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:22:37 [scrapy.core.scraper] ERROR: Error processing {'date': u'2017-12-23 16-16 - 1',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201712/mobWxg8vb.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:22:38 [scrapy.core.scraper] ERROR: Error processing {'date': u'2017-12-23 16-16 - 2',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201712/mob85jeDy.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:22:40 [scrapy.core.scraper] ERROR: Error processing {'date': u'2017-12-21 23-31 - 1',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201712/mobBpa5mV.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:22:41 [scrapy.extensions.logstats] INFO: Crawled 41 pages (at 41 pages/min), scraped 0 items (at 0 items/min)
+2018-02-25 17:22:42 [scrapy.core.scraper] ERROR: Error processing {'date': u'2017-12-21 23-31 - 2',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201712/mobHuKzz3.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:22:44 [scrapy.core.scraper] ERROR: Error processing {'date': u'2017-12-21 11-31 - 1',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201712/mobPsG5Nj.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:22:46 [scrapy.core.scraper] ERROR: Error processing {'date': u'2017-12-19 01-09 - 1',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201712/mobQOrE9N.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:22:47 [scrapy.core.scraper] ERROR: Error processing {'date': u'2017-12-16 02-20 - 1',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201712/mobgbUZD8.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:22:49 [scrapy.core.scraper] ERROR: Error processing {'date': u'2017-12-16 02-20 - 2',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201712/mobHy9m1U.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:22:50 [scrapy.core.scraper] ERROR: Error processing {'date': u'2017-12-16 02-20 - 3',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201712/mobGzx9vH.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:22:51 [scrapy.core.scraper] ERROR: Error processing {'date': u'2017-12-16 02-20 - 4',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201712/mobawZ17t.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:22:54 [scrapy.core.scraper] ERROR: Error processing {'date': u'2017-12-14 23-48 - 1',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201712/mobGqKjD4.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:22:55 [scrapy.core.scraper] ERROR: Error processing {'date': u'2017-12-14 23-48 - 2',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201712/mobp7K8cw.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:22:56 [scrapy.core.scraper] ERROR: Error processing {'date': u'2017-12-14 23-48 - 3',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201712/mobQvn8TX.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:22:59 [scrapy.core.scraper] ERROR: Error processing {'date': u'2017-12-14 23-48 - 4',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201712/mob78nnIp.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:23:00 [scrapy.core.scraper] ERROR: Error processing {'date': u'2017-12-14 23-48 - 5',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201712/mobm86WDR.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:23:02 [scrapy.core.scraper] ERROR: Error processing {'date': u'2017-12-12 02-01 - 1',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201712/mobeCjFbz.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:23:04 [scrapy.core.scraper] ERROR: Error processing {'date': u'2017-12-12 02-01 - 2',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201712/mob0iEs2M.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:23:06 [scrapy.core.scraper] ERROR: Error processing {'date': u'2017-12-11 09-55 - 1',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201712/mob37puLQ.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:23:08 [scrapy.core.scraper] ERROR: Error processing {'date': u'2017-12-11 09-55 - 2',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201712/mobfZetEX.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 183] 
+2018-02-25 17:23:41 [scrapy.extensions.logstats] INFO: Crawled 74 pages (at 33 pages/min), scraped 17 items (at 17 items/min)
+2018-02-25 17:24:41 [scrapy.extensions.logstats] INFO: Crawled 107 pages (at 33 pages/min), scraped 50 items (at 33 items/min)
+2018-02-25 17:25:41 [scrapy.extensions.logstats] INFO: Crawled 140 pages (at 33 pages/min), scraped 83 items (at 33 items/min)
+2018-02-25 17:26:41 [scrapy.extensions.logstats] INFO: Crawled 172 pages (at 32 pages/min), scraped 115 items (at 32 items/min)
+2018-02-25 17:26:47 [scrapy.core.scraper] ERROR: Error processing {'date': u'2017-05-03 00-47 - 1',
+ 'image_url': u'http://cdn.keyakizaka46.com/images/14/676/31b8f08569bb1c63c586e64712544.png'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 2] 
+2018-02-25 17:26:49 [scrapy.core.scraper] ERROR: Error processing {'date': u'2017-05-01 00-23 - 1',
+ 'image_url': u'http://cdn.keyakizaka46.com/images/14/fb8/a9160c2a80fe7c2b1f73887f7290a.png'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 2] 
+2018-02-25 17:26:51 [scrapy.core.scraper] ERROR: Error processing {'date': u'2017-05-01 00-23 - 2',
+ 'image_url': u'http://cdn.keyakizaka46.com/images/14/fb8/a9160c2a80fe7c2b1f73887f7290a-01.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 2] 
+2018-02-25 17:26:52 [scrapy.core.scraper] ERROR: Error processing {'date': u'2017-05-01 00-23 - 3',
+ 'image_url': u'http://cdn.keyakizaka46.com/images/14/fb8/a9160c2a80fe7c2b1f73887f7290a-02.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 2] 
+2018-02-25 17:26:54 [scrapy.core.scraper] ERROR: Error processing {'date': u'2017-04-30 01-03 - 1',
+ 'image_url': u'http://cdn.keyakizaka46.com/images/14/df6/9f8ae76ae411c7c7d7cdc631576ac.png'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 2] 
+2018-02-25 17:26:56 [scrapy.core.scraper] ERROR: Error processing {'date': u'2017-04-30 01-03 - 2',
+ 'image_url': u'http://cdn.keyakizaka46.com/images/14/df6/9f8ae76ae411c7c7d7cdc631576ac-01.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 2] 
+2018-02-25 17:26:58 [scrapy.core.scraper] ERROR: Error processing {'date': u'2017-04-30 01-03 - 3',
+ 'image_url': u'http://cdn.keyakizaka46.com/images/14/df6/9f8ae76ae411c7c7d7cdc631576ac-02.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 2] 
+2018-02-25 17:27:01 [scrapy.core.scraper] ERROR: Error processing {'date': u'2017-05-05 02-29 - 22',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201802/mobHwIhnB.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 2] 
+2018-02-25 17:27:28 [scrapy.pipelines.files] WARNING: File (code: 302): Error downloading file from <GET http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201802/mobK2DaiN.jpg> referred in <None>
+2018-02-25 17:27:28 [scrapy.core.scraper] ERROR: Error processing {'date': u'2017-05-05 02-29 - 27',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201802/mobK2DaiN.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+IndexError: list index out of range
+2018-02-25 17:27:41 [scrapy.extensions.logstats] INFO: Crawled 205 pages (at 33 pages/min), scraped 147 items (at 32 items/min)
+2018-02-25 17:28:41 [scrapy.extensions.logstats] INFO: Crawled 237 pages (at 32 pages/min), scraped 179 items (at 32 items/min)
+2018-02-25 17:29:41 [scrapy.extensions.logstats] INFO: Crawled 270 pages (at 33 pages/min), scraped 212 items (at 33 items/min)
+2018-02-25 17:30:41 [scrapy.extensions.logstats] INFO: Crawled 305 pages (at 35 pages/min), scraped 247 items (at 35 items/min)
+2018-02-25 17:31:41 [scrapy.extensions.logstats] INFO: Crawled 338 pages (at 33 pages/min), scraped 280 items (at 33 items/min)
+2018-02-25 17:32:41 [scrapy.extensions.logstats] INFO: Crawled 373 pages (at 35 pages/min), scraped 312 items (at 32 items/min)
+2018-02-25 17:33:41 [scrapy.extensions.logstats] INFO: Crawled 405 pages (at 32 pages/min), scraped 344 items (at 32 items/min)
+2018-02-25 17:34:41 [scrapy.extensions.logstats] INFO: Crawled 437 pages (at 32 pages/min), scraped 376 items (at 32 items/min)
+2018-02-25 17:35:41 [scrapy.extensions.logstats] INFO: Crawled 470 pages (at 33 pages/min), scraped 409 items (at 33 items/min)
+2018-02-25 17:36:41 [scrapy.extensions.logstats] INFO: Crawled 502 pages (at 32 pages/min), scraped 441 items (at 32 items/min)
+2018-02-25 17:37:41 [scrapy.extensions.logstats] INFO: Crawled 538 pages (at 36 pages/min), scraped 474 items (at 33 items/min)
+2018-02-25 17:38:41 [scrapy.extensions.logstats] INFO: Crawled 571 pages (at 33 pages/min), scraped 508 items (at 34 items/min)
+2018-02-25 17:39:41 [scrapy.extensions.logstats] INFO: Crawled 605 pages (at 34 pages/min), scraped 542 items (at 34 items/min)
+2018-02-25 17:40:41 [scrapy.extensions.logstats] INFO: Crawled 643 pages (at 38 pages/min), scraped 575 items (at 33 items/min)
+2018-02-25 17:41:41 [scrapy.extensions.logstats] INFO: Crawled 674 pages (at 31 pages/min), scraped 607 items (at 32 items/min)
+2018-02-25 17:42:41 [scrapy.extensions.logstats] INFO: Crawled 706 pages (at 32 pages/min), scraped 639 items (at 32 items/min)
+2018-02-25 17:43:41 [scrapy.extensions.logstats] INFO: Crawled 738 pages (at 32 pages/min), scraped 671 items (at 32 items/min)
+2018-02-25 17:44:41 [scrapy.extensions.logstats] INFO: Crawled 771 pages (at 33 pages/min), scraped 703 items (at 32 items/min)
+2018-02-25 17:44:41 [scrapy.core.scraper] ERROR: Error processing {'date': u'2018-02-25 15-03 - 1',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201802/mobHwIhnB.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 2] 
+2018-02-25 17:44:41 [scrapy.core.scraper] ERROR: Error processing {'date': u'2018-02-23 00-45 - 1',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201802/mobxr72Ld.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 2] 
+2018-02-25 17:44:41 [scrapy.core.scraper] ERROR: Error processing {'date': u'2018-02-21 02-19 - 1',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201802/mobIG0GFP.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 2] 
+2018-02-25 17:44:41 [scrapy.core.scraper] ERROR: Error processing {'date': u'2018-02-19 22-58 - 1',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201802/mobOymhFB.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 2] 
+2018-02-25 17:44:41 [scrapy.core.scraper] ERROR: Error processing {'date': u'2018-02-16 23-00 - 1',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201802/mobFOsKbc.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 2] 
+2018-02-25 17:44:41 [scrapy.core.scraper] ERROR: Error processing {'date': u'2018-02-16 11-19 - 1',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201802/mobpPzhZM.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 2] 
+2018-02-25 17:44:41 [scrapy.core.scraper] ERROR: Error processing {'date': u'2018-02-16 11-17 - 1',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201802/mobLvlsna.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 2] 
+2018-02-25 17:44:41 [scrapy.core.scraper] ERROR: Error processing {'date': u'2018-02-14 02-13 - 1',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201802/mobYe8PhX.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 2] 
+2018-02-25 17:44:41 [scrapy.core.scraper] ERROR: Error processing {'date': u'2018-02-13 01-39 - 1',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201802/mobZFSCG8.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 2] 
+2018-02-25 17:44:41 [scrapy.core.scraper] ERROR: Error processing {'date': u'2018-02-12 16-47 - 1',
+ 'image_url': u'http://cdn.keyakizaka46.com/files/14/diary/k46/member/moblog/201802/mobMhMDE3.jpg'}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 21, in item_completed
+    os.rename(self.IMAGES_STORE + image_path[0], self.IMAGES_STORE + item['date'] + ".jpg")
+WindowsError: [Error 2] 
+2018-02-25 17:45:41 [scrapy.extensions.logstats] INFO: Crawled 804 pages (at 33 pages/min), scraped 736 items (at 33 items/min)
+2018-02-25 17:46:07 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-02-25 17:46:07 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 212826,
+ 'downloader/request_count': 818,
+ 'downloader/request_method_count/GET': 818,
+ 'downloader/response_bytes': 149769500,
+ 'downloader/response_count': 818,
+ 'downloader/response_status_count/200': 817,
+ 'downloader/response_status_count/302': 1,
+ 'dupefilter/filtered': 134,
+ 'file_count': 798,
+ 'file_status_count/downloaded': 798,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 2, 25, 9, 46, 7, 919000),
+ 'item_scraped_count': 750,
+ 'log_count/ERROR': 67,
+ 'log_count/INFO': 31,
+ 'log_count/WARNING': 1,
+ 'request_depth_max': 5,
+ 'response_received_count': 818,
+ 'scheduler/dequeued': 19,
+ 'scheduler/dequeued/memory': 19,
+ 'scheduler/enqueued': 19,
+ 'scheduler/enqueued/memory': 19,
+ 'start_time': datetime.datetime(2018, 2, 25, 9, 21, 41, 40000)}
+2018-02-25 17:46:07 [scrapy.core.engine] INFO: Spider closed (finished)
+
+
+2018-02-25 17:50:55 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: kykblog)
+2018-02-25 17:50:55 [scrapy.utils.log] INFO: Versions: lxml 2.3.0.0, libxml2 2.7.7, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 2.7.10 (default, May 23 2015, 09:44:00) [MSC v.1500 64 bit (AMD64)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0g  2 Nov 2017), cryptography 2.1.4, Platform Windows-8-6.2.9200
+2018-02-25 17:50:55 [scrapy.crawler] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'kykblog.spiders', 'LOG_LEVEL': 'INFO', 'SPIDER_MODULES': ['kykblog.spiders'], 'BOT_NAME': 'kykblog', 'COOKIES_ENABLED': False, 'LOG_FILE': 'kykblogSpider.log', 'DOWNLOAD_DELAY': 1.5}
+2018-02-25 17:50:55 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2018-02-25 17:50:56 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-02-25 17:50:56 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-02-25 17:50:56 [scrapy.middleware] INFO: Enabled item pipelines:
+['kykblog.pipelines.KykblogPipeline']
+2018-02-25 17:50:56 [scrapy.core.engine] INFO: Spider opened
+2018-02-25 17:50:56 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-02-25 17:51:12 [scrapy.core.scraper] ERROR: Error processing {'date': u'2016-12-01 14-11 - 1', 'image_url': u''}
+Traceback (most recent call last):
+  File "d:\develop\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "d:\develop\python27\lib\site-packages\scrapy\pipelines\media.py", line 80, in process_item
+    dlist = [self._process_request(r, info) for r in requests]
+  File "E:\Course\Python\projects for spider\hori307\kyk_blog\Scrapy_CrawlSpider\kykblog\kykblog\pipelines.py", line 17, in get_media_requests
+    yield scrapy.Request(item['image_url'])
+  File "d:\develop\python27\lib\site-packages\scrapy\http\request\__init__.py", line 25, in __init__
+    self._set_url(url)
+  File "d:\develop\python27\lib\site-packages\scrapy\http\request\__init__.py", line 62, in _set_url
+    raise ValueError('Missing scheme in request url: %s' % self._url)
+ValueError: Missing scheme in request url: 
+2018-02-25 17:51:56 [scrapy.extensions.logstats] INFO: Crawled 9 pages (at 9 pages/min), scraped 0 items (at 0 items/min)
+2018-02-25 17:52:22 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2018-02-25 17:52:22 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2018-02-25 17:52:23 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
